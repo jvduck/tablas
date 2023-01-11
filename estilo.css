@@ -1,0 +1,40 @@
+* { padding:0 ; margin:0}
+h1{
+    color: blueviolet;
+    padding: 20px;
+    }
+img{
+    padding:50px;
+    width: 800px;
+}
+table {
+    padding:0;
+    margin:100px;
+    text-align:left;
+    border:5px solid black;
+}
+caption{
+    color: brown;
+    width: 600px;
+}
+table thead tr th {
+text-align:center;
+width:auto;
+border:3px dashed forestgreen;
+background-color: rgb(24, 161, 24);
+}
+
+table tbody tr th {
+    text-align: center;
+    padding: 3px;
+    background-color: rgba(150, 89, 9, 0.733);
+    color: rgba(145, 90, 80, 5);   
+}
+table tbody tr th:hover {
+    color: aliceblue;
+    background-color: brown;
+}
+table tbody tr td {
+    background-color: rgba(34, 139, 34, 0.596);
+    
+}
